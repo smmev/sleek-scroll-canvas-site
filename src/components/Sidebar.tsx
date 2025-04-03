@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// Save image to public folder
+// Using the profile image
 const profileImage = '/lovable-uploads/7b5f73eb-9dd9-40c8-95be-609c91c6daae.png';
 
 const Sidebar = () => {
@@ -35,7 +35,7 @@ const Sidebar = () => {
             <a href="#services" className="nav-link ml-6">Services</a>
           </li>
           <li>
-            <a href="#skills" className="nav-link ml-6">Skills</a>
+            <a href="#skills" className="nav-link ml-6">Hobbies</a>
           </li>
           <li>
             <a href="#experience" className="nav-link ml-6">Experience</a>
@@ -48,6 +48,9 @@ const Sidebar = () => {
           </li>
           <li>
             <a href="#contact" className="nav-link ml-6">Contact</a>
+          </li>
+          <li>
+            <a href="#profile" className="nav-link ml-6">Profile</a>
           </li>
         </ul>
       </nav>
