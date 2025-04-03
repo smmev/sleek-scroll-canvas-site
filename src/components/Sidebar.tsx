@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Using the profile image
-const profileImage = '/lovable-uploads/7b5f73eb-9dd9-40c8-95be-609c91c6daae.png';
+const profileImage = '/lovable-uploads/8ae21fd7-1e84-4c35-b1f2-5b56efcdfc74.png';
 
 const Sidebar = () => {
   return (
