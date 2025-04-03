@@ -29,8 +29,8 @@ const Hero = () => {
         <div className="relative animate-fade-in">
           <div className="w-full h-auto aspect-square rounded-2xl shadow-lg overflow-hidden">
             <img
-              src="/lovable-uploads/12a1b891-cf1e-4e6a-a593-d47b18b6f434.png"
-              alt="Abstract architectural structure"
+              src="/lovable-uploads/8d2d60db-0b0f-49de-ba3a-2fa3f9ffcbd1.png"
+              alt="Profile image of a person"
               className="w-full h-full object-cover"
             />
           </div>
