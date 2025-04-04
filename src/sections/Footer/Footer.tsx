@@ -10,7 +10,7 @@ const Footer = () => {
         <a href="#contact" className="text-sm hover:text-gray-900">Contact</a>
       </div>
       <div className="text-sm text-gray-500">
-        © 2025 Sev Mallabo. All rights reserved.
+        © {new Date().getFullYear()} Sev Mallabo. All rights reserved.
       </div>
     </div>
   );

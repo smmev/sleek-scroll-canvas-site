@@ -11,6 +11,17 @@ import Experience from '@/sections/Experience/Experience';
 import Blog from '@/sections/Blog/Blog';
 
 const Index = () => {
+  // Ensure we're using client-side routing properly for static export
+  React.useEffect(() => {
+    // Scroll to hash on load if present
+    if (window.location.hash) {
+      const element = document.querySelector(window.location.hash);
+      if (element) {
+        element.scrollIntoView();
+      }
+    }
+  }, []);
+
   return (
     <div className="flex flex-col md:flex-row min-h-screen">
       <Sidebar />
