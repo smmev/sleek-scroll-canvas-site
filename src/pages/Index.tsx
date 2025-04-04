@@ -1,14 +1,14 @@
 
 import React from 'react';
 import Sidebar from '@/components/Sidebar';
-import Hero from '@/components/Hero';
-import About from '@/components/About';
-import Portfolio from '@/components/Portfolio';
-import Contact from '@/components/Contact';
+import Hero from '@/sections/Hero/Hero';
+import About from '@/sections/About/About';
+import Portfolio from '@/sections/Portfolio/Portfolio';
+import Contact from '@/sections/Contact/Contact';
 import Footer from '@/components/Footer';
-import Services from '@/components/Services';
-import Experience from '@/components/Experience';
-import Blog from '@/components/Blog';
+import Services from '@/sections/Services/Services';
+import Experience from '@/sections/Experience/Experience';
+import Blog from '@/sections/Blog/Blog';
 
 const Index = () => {
   return (

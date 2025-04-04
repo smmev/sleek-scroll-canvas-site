@@ -1,84 +1,22 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import Profile from '@/sections/Profile/Profile';
+import Hobbies from '@/sections/Hobbies/Hobbies';
+import FooterLinks from '@/sections/Footer/Footer';
 
 const Footer = () => {
   return (
     <footer className="border-t border-gray-200 py-12">
       <div className="max-w-6xl mx-auto px-6 md:px-8">
         {/* Profile Section */}
-        <section id="profile" className="mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-center md:text-left">Profile</h2>
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="order-2 md:order-1">
-              <p className="text-gray-600 mb-4">
-                I'm Sev Mallabo, a Computer Science graduate with a passion for creating 
-                efficient and innovative technological solutions. I specialize in software 
-                development, algorithms, and problem-solving.
-              </p>
-              <p className="text-gray-600">
-                My academic background has equipped me with a strong foundation in 
-                programming principles, data structures, and system design. I'm constantly 
-                looking to expand my knowledge and take on new challenges in the tech industry.
-              </p>
-              <Button 
-                onClick={() => window.open('/resume.pdf', '_blank')}
-                className="mt-6 bg-[#D46FDB] hover:bg-[#B85DAC]"
-              >
-                Download Resume
-              </Button>
-            </div>
-            <div className="flex justify-center order-1 md:order-2">
-              <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-yellow-500 shadow-lg">
-                <img 
-                  src="/lovable-uploads/8ae21fd7-1e84-4c35-b1f2-5b56efcdfc74.png" 
-                  alt="Sev Mallabo" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+        <Profile />
         
         {/* Hobbies Section */}
-        <section id="skills" className="mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-center md:text-left">Hobbies</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
-              <h3 className="font-semibold text-xl mb-3">Gaming</h3>
-              <p className="text-gray-600">
-                I enjoy exploring virtual worlds and strategic gameplay. My favorite genres include RPGs and strategy games.
-              </p>
-            </div>
-            <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
-              <h3 className="font-semibold text-xl mb-3">Drawing</h3>
-              <p className="text-gray-600">
-                I enjoy sketching and creating digital art during free time. It helps me express creativity in a different medium.
-              </p>
-            </div>
-            <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
-              <h3 className="font-semibold text-xl mb-3">Working Out</h3>
-              <p className="text-gray-600">
-                I'm passionate about fitness and maintaining a healthy lifestyle through regular exercise and strength training.
-              </p>
-            </div>
-            <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
-              <h3 className="font-semibold text-xl mb-3">Music Addict</h3>
-              <p className="text-gray-600">
-                I'm constantly listening to music and exploring different genres. Music helps me focus and enhances my creativity.
-              </p>
-            </div>
-            <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
-              <h3 className="font-semibold text-xl mb-3">Loves Food</h3>
-              <p className="text-gray-600">
-                I'm passionate about trying new cuisines and discovering hidden food spots. Food exploration is one of my favorite weekend activities.
-              </p>
-            </div>
-          </div>
-        </section>
+        <Hobbies />
         
         {/* Contact Section */}
-        <section id="contact" className="mb-12">
+        <section id="contact-info" className="mb-12">
           <h2 className="text-3xl font-bold mb-6 text-center md:text-left">Contact</h2>
           <div className="max-w-lg mx-auto md:mx-0">
             <p className="text-gray-600 mb-6">
@@ -131,16 +69,7 @@ const Footer = () => {
         </section>
         
         {/* Footer Links and Copyright */}
-        <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center">
-          <div className="grid grid-cols-3 gap-x-8 md:gap-x-16 gap-y-4 mb-6 md:mb-0">
-            <a href="#profile" className="text-sm hover:text-gray-900">Profile</a>
-            <a href="#skills" className="text-sm hover:text-gray-900">Hobbies</a>
-            <a href="#contact" className="text-sm hover:text-gray-900">Contact</a>
-          </div>
-          <div className="text-sm text-gray-500">
-            © 2025 Sev Mallabo. All rights reserved.
-          </div>
-        </div>
+        <FooterLinks />
       </div>
     </footer>
   );

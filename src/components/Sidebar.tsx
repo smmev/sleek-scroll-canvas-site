@@ -34,7 +34,7 @@ const Sidebar = () => {
     { href: "#home", label: "Home", className: "text-white" },
     { href: "#about", label: "About", className: "text-gray-200 hover:text-white" },
     { href: "#services", label: "Services", className: "text-gray-200 hover:text-white" },
-    { href: "#skills", label: "Hobbies", className: "text-gray-200 hover:text-white" },
+    { href: "#hobbies", label: "Hobbies", className: "text-gray-200 hover:text-white" },
     { href: "#experience", label: "Experience", className: "text-gray-200 hover:text-white" },
     { href: "#portfolio", label: "Portfolio", className: "text-gray-200 hover:text-white" },
     { href: "#blog", label: "Blog", className: "text-gray-200 hover:text-white" },
