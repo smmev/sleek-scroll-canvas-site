@@ -42,6 +42,7 @@
 
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Adds padding for fixed header on mobile */
   }
 
   body {
@@ -97,23 +98,12 @@
 
 @media (max-width: 768px) {
   .sidebar {
-    width: 100%;
-    height: auto;
-    position: static;
-    padding: 1.5rem 1rem;
-    border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    overflow-x: auto;
-    white-space: nowrap;
+    display: none;
   }
 
   .main-content {
     margin-left: 0;
     width: 100%;
-  }
-
-  .mobile-menu {
-    display: block;
   }
   
   section {

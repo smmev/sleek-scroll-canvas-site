@@ -23,7 +23,7 @@ const Footer = () => {
               </p>
               <Button 
                 onClick={() => window.open('/resume.pdf', '_blank')}
-                className="mt-6 bg-black hover:bg-gray-800"
+                className="mt-6 bg-[#D46FDB] hover:bg-[#B85DAC]"
               >
                 Download Resume
               </Button>
@@ -49,65 +49,30 @@ const Footer = () => {
               <p className="text-gray-600">
                 I enjoy exploring virtual worlds and strategic gameplay. My favorite genres include RPGs and strategy games.
               </p>
-              <Button 
-                variant="outline" 
-                className="mt-4 w-full border-black hover:bg-black hover:text-white"
-                onClick={() => window.location.href = '#gaming'}
-              >
-                Learn More
-              </Button>
             </div>
             <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
               <h3 className="font-semibold text-xl mb-3">Drawing</h3>
               <p className="text-gray-600">
                 I enjoy sketching and creating digital art during free time. It helps me express creativity in a different medium.
               </p>
-              <Button 
-                variant="outline" 
-                className="mt-4 w-full border-black hover:bg-black hover:text-white"
-                onClick={() => window.location.href = '#art'}
-              >
-                See Projects
-              </Button>
             </div>
             <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
               <h3 className="font-semibold text-xl mb-3">Working Out</h3>
               <p className="text-gray-600">
                 I'm passionate about fitness and maintaining a healthy lifestyle through regular exercise and strength training.
               </p>
-              <Button 
-                variant="outline" 
-                className="mt-4 w-full border-black hover:bg-black hover:text-white"
-                onClick={() => window.location.href = '#fitness'}
-              >
-                Fitness Routine
-              </Button>
             </div>
             <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
               <h3 className="font-semibold text-xl mb-3">Music Addict</h3>
               <p className="text-gray-600">
                 I'm constantly listening to music and exploring different genres. Music helps me focus and enhances my creativity.
               </p>
-              <Button 
-                variant="outline" 
-                className="mt-4 w-full border-black hover:bg-black hover:text-white"
-                onClick={() => window.location.href = '#music'}
-              >
-                My Playlists
-              </Button>
             </div>
             <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
               <h3 className="font-semibold text-xl mb-3">Loves Food</h3>
               <p className="text-gray-600">
                 I'm passionate about trying new cuisines and discovering hidden food spots. Food exploration is one of my favorite weekend activities.
               </p>
-              <Button 
-                variant="outline" 
-                className="mt-4 w-full border-black hover:bg-black hover:text-white"
-                onClick={() => window.location.href = '#food'}
-              >
-                Favorite Spots
-              </Button>
             </div>
           </div>
         </section>

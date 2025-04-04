@@ -65,7 +65,7 @@ const Blog = () => {
         </div>
         
         <div className="mt-8 text-center">
-          <Button className="rounded-full bg-black text-white hover:bg-gray-800">
+          <Button className="rounded-full bg-[#D46FDB] text-white hover:bg-[#B85DAC]">
             View All Posts
           </Button>
         </div>

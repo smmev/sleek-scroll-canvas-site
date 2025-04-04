@@ -17,7 +17,7 @@ const Hero = () => {
           </p>
           <div>
             <Button 
-              className="rounded-full px-6 md:px-8 py-5 md:py-6 bg-black text-white hover:bg-gray-800 transition-all"
+              className="rounded-full px-6 md:px-8 py-5 md:py-6 bg-[#D46FDB] text-white hover:bg-[#B85DAC] transition-all"
               asChild
             >
               <a href="#portfolio">

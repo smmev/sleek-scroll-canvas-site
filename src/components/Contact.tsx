@@ -48,7 +48,7 @@ const Contact = () => {
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
                 <Textarea id="message" placeholder="Your message" rows={5} className="w-full" />
               </div>
-              <Button className="w-full">Send Message</Button>
+              <Button className="w-full bg-[#D46FDB] hover:bg-[#B85DAC]">Send Message</Button>
             </form>
           </div>
         </div>
