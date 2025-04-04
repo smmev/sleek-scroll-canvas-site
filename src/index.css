@@ -33,7 +33,7 @@
     --input: 240 5.9% 90%;
     --ring: 240 5.9% 10%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
   }
 
   * {
@@ -57,10 +57,11 @@
   top: 0;
   left: 0;
   overflow-y: auto;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 2rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .main-content {
@@ -72,20 +73,26 @@
 .nav-link {
   position: relative;
   display: inline-block;
-  padding: 0.25rem 0;
-  transition: color 0.3s ease;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  margin: 0.25rem 0;
 }
 
 .nav-link:hover {
   color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .social-icon {
-  transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 9999px;
 }
 
 .social-icon:hover {
-  opacity: 0.7;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
@@ -93,9 +100,11 @@
     width: 100%;
     height: auto;
     position: static;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
   .main-content {
@@ -106,6 +115,10 @@
   .mobile-menu {
     display: block;
   }
+  
+  section {
+    padding: 3rem 1.5rem;
+  }
 }
 
 /* Add animation for fade-in effect */
@@ -115,5 +128,21 @@
 }
 
 .animate-fade-in {
-  animation: fadeIn 0.5s ease-out forwards;
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Add styles for sections */
+section {
+  scroll-margin-top: 2rem;
+  padding: 4rem 0;
+}
+
+/* Card hover effects */
+.hover-card {
+  transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }

@@ -7,7 +7,7 @@ const profileImage = '/lovable-uploads/8ae21fd7-1e84-4c35-b1f2-5b56efcdfc74.png'
 
 const Sidebar = () => {
   return (
-    <div className="sidebar bg-[#1A1F2C] text-white">
+    <div className="sidebar bg-[#D46FDB] text-white">
       <div className="flex flex-col items-center mb-8">
         <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-gray-600">
           <img 
@@ -17,7 +17,7 @@ const Sidebar = () => {
           />
         </div>
         <h2 className="text-xl font-semibold text-white">Sev Mallabo</h2>
-        <p className="text-sm text-gray-300 text-center mt-1">
+        <p className="text-sm text-gray-100 text-center mt-1">
           Computer Science Graduate | Developer | Tech Enthusiast
         </p>
       </div>
@@ -32,58 +32,58 @@ const Sidebar = () => {
             <a href="#about" className="nav-link ml-6 bg-purple-800 px-2 py-1 rounded text-white">About</a>
           </li>
           <li>
-            <a href="#services" className="nav-link ml-6 text-gray-300 hover:text-white">Services</a>
+            <a href="#services" className="nav-link ml-6 text-gray-200 hover:text-white">Services</a>
           </li>
           <li>
             <a href="#skills" className="nav-link ml-6 bg-purple-800 px-2 py-1 rounded text-white">Hobbies</a>
           </li>
           <li>
-            <a href="#experience" className="nav-link ml-6 bg-purple-800 px-2 py-1 rounded text-white">Experience</a>
+            <a href="#experience" className="nav-link ml-6 text-gray-200 hover:text-white">Experience</a>
           </li>
           <li>
-            <a href="#portfolio" className="nav-link ml-6 text-gray-300 hover:text-white">Portfolio</a>
+            <a href="#portfolio" className="nav-link ml-6 text-gray-200 hover:text-white">Portfolio</a>
           </li>
           <li>
-            <a href="#blog" className="nav-link ml-6 text-gray-300 hover:text-white">Blog</a>
+            <a href="#blog" className="nav-link ml-6 text-gray-200 hover:text-white">Blog</a>
           </li>
           <li>
-            <a href="#contact" className="nav-link ml-6 text-gray-300 hover:text-white">Contact</a>
+            <a href="#contact" className="nav-link ml-6 text-gray-200 hover:text-white">Contact</a>
           </li>
           <li>
-            <a href="#profile" className="nav-link ml-6 text-gray-300 hover:text-white">Profile</a>
+            <a href="#profile" className="nav-link ml-6 bg-yellow-500 px-2 py-1 rounded text-white">Profile</a>
           </li>
         </ul>
       </nav>
 
       <div className="mt-auto pt-8">
         <div className="flex space-x-4 mb-4 justify-center">
-          <a href="#" className="social-icon text-gray-300 hover:text-white" aria-label="GitHub">
+          <a href="#" className="social-icon text-gray-200 hover:text-white" aria-label="GitHub">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
             </svg>
           </a>
-          <a href="#" className="social-icon text-gray-300 hover:text-white" aria-label="Instagram">
+          <a href="#" className="social-icon text-gray-200 hover:text-white" aria-label="Instagram">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
               <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
             </svg>
           </a>
-          <a href="#" className="social-icon text-gray-300 hover:text-white" aria-label="LinkedIn">
+          <a href="#" className="social-icon text-gray-200 hover:text-white" aria-label="LinkedIn">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
               <rect x="2" y="9" width="4" height="12"></rect>
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
           </a>
-          <a href="#" className="social-icon text-gray-300 hover:text-white" aria-label="Email">
+          <a href="#" className="social-icon text-gray-200 hover:text-white" aria-label="Email">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
               <polyline points="22,6 12,13 2,6"></polyline>
             </svg>
           </a>
         </div>
-        <div className="text-center text-xs text-gray-400">
+        <div className="text-center text-xs text-gray-100">
           <p>© 2025 Sev Mallabo.</p>
           <p>All rights reserved.</p>
         </div>
