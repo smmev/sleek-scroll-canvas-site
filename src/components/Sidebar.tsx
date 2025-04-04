@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar bg-[#D46FDB] text-white">
       <div className="flex flex-col items-center mb-8">
-        <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-gray-600">
+        <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-yellow-500">
           <img 
             src={profileImage} 
             alt="Sev Mallabo" 
@@ -29,13 +29,13 @@ const Sidebar = () => {
             <a href="#home" className="nav-link text-white">Home</a>
           </li>
           <li>
-            <a href="#about" className="nav-link ml-6 bg-purple-800 px-2 py-1 rounded text-white">About</a>
+            <a href="#about" className="nav-link ml-6 text-gray-200 hover:text-white">About</a>
           </li>
           <li>
             <a href="#services" className="nav-link ml-6 text-gray-200 hover:text-white">Services</a>
           </li>
           <li>
-            <a href="#skills" className="nav-link ml-6 bg-purple-800 px-2 py-1 rounded text-white">Hobbies</a>
+            <a href="#skills" className="nav-link ml-6 text-gray-200 hover:text-white">Hobbies</a>
           </li>
           <li>
             <a href="#experience" className="nav-link ml-6 text-gray-200 hover:text-white">Experience</a>

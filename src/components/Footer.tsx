@@ -29,7 +29,7 @@ const Footer = () => {
               </Button>
             </div>
             <div className="flex justify-center order-1 md:order-2">
-              <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-2 border-gray-200 shadow-lg">
+              <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-yellow-500 shadow-lg">
                 <img 
                   src="/lovable-uploads/8ae21fd7-1e84-4c35-b1f2-5b56efcdfc74.png" 
                   alt="Sev Mallabo" 
@@ -58,14 +58,14 @@ const Footer = () => {
               </Button>
             </div>
             <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
-              <h3 className="font-semibold text-xl mb-3">Coding Projects</h3>
+              <h3 className="font-semibold text-xl mb-3">Drawing</h3>
               <p className="text-gray-600">
-                In my free time, I work on personal coding projects to explore new technologies and frameworks.
+                I enjoy sketching and creating digital art during free time. It helps me express creativity in a different medium.
               </p>
               <Button 
                 variant="outline" 
                 className="mt-4 w-full border-black hover:bg-black hover:text-white"
-                onClick={() => window.location.href = '#projects'}
+                onClick={() => window.location.href = '#art'}
               >
                 See Projects
               </Button>
@@ -83,6 +83,32 @@ const Footer = () => {
                 Fitness Routine
               </Button>
             </div>
+            <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
+              <h3 className="font-semibold text-xl mb-3">Music Addict</h3>
+              <p className="text-gray-600">
+                I'm constantly listening to music and exploring different genres. Music helps me focus and enhances my creativity.
+              </p>
+              <Button 
+                variant="outline" 
+                className="mt-4 w-full border-black hover:bg-black hover:text-white"
+                onClick={() => window.location.href = '#music'}
+              >
+                My Playlists
+              </Button>
+            </div>
+            <div className="p-6 border border-gray-200 rounded-lg hover:shadow-md transition-shadow bg-white hover:bg-gray-50">
+              <h3 className="font-semibold text-xl mb-3">Loves Food</h3>
+              <p className="text-gray-600">
+                I'm passionate about trying new cuisines and discovering hidden food spots. Food exploration is one of my favorite weekend activities.
+              </p>
+              <Button 
+                variant="outline" 
+                className="mt-4 w-full border-black hover:bg-black hover:text-white"
+                onClick={() => window.location.href = '#food'}
+              >
+                Favorite Spots
+              </Button>
+            </div>
           </div>
         </section>
         
@@ -98,7 +124,7 @@ const Footer = () => {
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                 <polyline points="22,6 12,13 2,6"></polyline>
               </svg>
-              <a href="mailto:contact@sevmallabo.com" className="hover:underline">contact@sevmallabo.com</a>
+              <a href="mailto:sev.adrianm02@gmail.com" className="hover:underline">sev.adrianm02@gmail.com</a>
             </div>
             <div className="flex space-x-4">
               <Button 
